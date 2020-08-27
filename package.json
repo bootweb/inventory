@@ -1,0 +1,23 @@
+{
+  "name": "iconnect",
+  "version": "1.0.0",
+  "description": "Inventory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js"
+  },
+  "author": "Mehul Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
